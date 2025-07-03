@@ -40,13 +40,13 @@ AI AGENT/
 
 ## Install dependencies
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Add your API keys in rag_config.py
 
-NVIDIA_API_KEY = "Insert your API key"
-NVIDIA_API_URL = "Insert your API URL"
-GROK_API_KEY = "Insert your Groq API key"
+```NVIDIA_API_KEY = Insert your API key```
+```NVIDIA_API_URL = Insert your API URL```
+```GROK_API_KEY = Insert your Groq API key```
 
 ## Add documents
 
@@ -54,5 +54,5 @@ Place .txt files inside the data/documents/ directory. These will be chunked and
 
 ## Run the Streamlit app
 
-streamlit run ui/app.py
+```streamlit run ui/app.py```
 
