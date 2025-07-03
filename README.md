@@ -1,6 +1,6 @@
 # Agentic RAG System
 
-This is a modular, multi-agent Retrieval-Augmented Generation (RAG) system that uses a controller and reasoning agent to answer user queries based on uploaded documents. The system uses FAISS for vector storage, sentence-transformers for embeddings, and supports LLM APIs like NVIDIA and Groq.
+This is a modular, **multi-agent Retrieval-Augmented Generation (RAG)** system that uses a controller and reasoning agent to answer user queries based on uploaded documents. The system uses FAISS for vector storage, SentenceTransformers for embeddings, and supports LLM APIs like NVIDIA and Groq.
 
 ---
 
@@ -16,16 +16,23 @@ This is a modular, multi-agent Retrieval-Augmented Generation (RAG) system that 
 
 ## Project Structure
 
+```text
 AI AGENT/
 ├── agents/
 │   ├── agent.py
-│   └── controller.py
+│   ├── base_agent.py
+│   ├── controller.py
+│   └── tool_executor_agent.py
 ├── retriever/
 │   ├── embedder.py
 │   ├── retriever.py
 │   └── vector_store.py
+├── llm_backends/
+│   ├── grok.py
+│   └── llama_maverick.py
 ├── utils/
-│   └── file_utils.py
+│   ├── file_utils.py
+│   └── logger.py
 ├── ui/
 │   └── app.py
 ├── data/
@@ -36,6 +43,7 @@ AI AGENT/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 
 ## Install dependencies
