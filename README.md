@@ -18,23 +18,25 @@ This is a modular, multi-agent Retrieval-Augmented Generation (RAG) system that 
 
 AI AGENT/
 ├── agents/
-│ ├── agent.py # Reasoning agent logic
-│ └── controller.py # Controller for managing tasks
+│   ├── agent.py
+│   └── controller.py
 ├── retriever/
-│ ├── embedder.py # Embedding generator
-│ ├── retriever.py # Document loader + chunking + vector search
-│ └── vector_store.py # FAISS vector DB operations
+│   ├── embedder.py
+│   ├── retriever.py
+│   └── vector_store.py
 ├── utils/
-│ └── file_utils.py # File and directory utilities
+│   └── file_utils.py
 ├── ui/
-│ └── app.py # Streamlit app interface
+│   └── app.py
 ├── data/
-│ ├── documents/ # Place your .txt docs here
-│ └── embeddings/ # Stores FAISS index
-├── rag_config.py # Central config file
+│   ├── documents/
+│   └── embeddings/
+├── rag_config.py
+├── .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
 
 ## Install dependencies
 
