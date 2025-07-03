@@ -1,0 +1,13 @@
+langchain
+sentence-transformers
+faiss-cpu
+tqdm
+streamlit
+python-dotenv
+requests
+PyMuPDF
+pypdf
+openai
+pandas
+nltk
+scikit-learn
