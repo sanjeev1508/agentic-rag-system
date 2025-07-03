@@ -52,9 +52,11 @@ AI AGENT/
 
 ## Add your API keys in rag_config.py
 
-```NVIDIA_API_KEY = Insert your API key```
-```NVIDIA_API_URL = Insert your API URL```
-```GROK_API_KEY = Insert your Groq API key```
+```
+NVIDIA_API_KEY = Insert your API key
+NVIDIA_API_URL = Insert your API URL
+GROK_API_KEY = Insert your Groq API key
+```
 
 ## Add documents
 
